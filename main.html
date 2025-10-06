@@ -3,94 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorite Movie: Inception</title>
+    <title>Inception - Movie Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #0e0e0e;
+            color: #f5f5f5;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #1c1c1c;
             text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
         }
         nav {
-            margin: 20px 0;
+            background-color: #292929;
             text-align: center;
+            padding: 10px;
         }
         nav a {
-            margin: 0 15px;
-			text-align: center;
-        }
-        nav a {
-            margin: 0 15px;
+            color: #ffcc00;
             text-decoration: none;
-            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
         }
-        section {
-            margin: 20px 0;
-            padding: 15px;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        nav a:hover {
+            color: #ffffff;
+        }
+        section, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        #summary {
+            background-color: #2b2b2b;
+        }
+        #actor, #quote {
+            background-color: #333333;
         }
         aside {
-            background: #e2e2e2;
-            padding: 10px;
-            border-radius: 5px;
-            margin: 20px 0;
+            background-color: #222222;
+            font-style: italic;
         }
         footer {
+            background-color: #1c1c1c;
             text-align: center;
-            margin-top: 20px;
-            font-weight: bold;
-			}
+            color: #aaaaaa;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
+    <header>
+        Inception
+    </header>
 
-<header>
-    <h1>Inception</h1>
-</header>
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
 
-<nav>
-    <a href="#actor" id="nav-actor">Actors</a>
-    <a href="#quote" id="nav-quote">Quotes</a>
-</nav>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>
+            *Inception* is a mind-bending science fiction thriller directed by Christopher Nolan. 
+            The story follows Dom Cobb, a skilled thief who steals secrets by infiltrating dreams. 
+            Given a chance to erase his criminal record, Cobb must perform the impossible task of “inception” — 
+            planting an idea in someone's mind. As dreams within dreams unfold, the line between reality and illusion blurs.
+        </p>
+    </section>
 
-<section>
-    <h2>Summary</h2>
-    <p>
-        Inception is a science fiction film that follows a skilled thief, Dom Cobb, who has the unique ability to enter the dreams of others and steal their secrets. Tasked with planting an idea into the mind of a target, Cobb assembles a team to navigate the complex layers of dreams, facing challenges that blur the lines between reality and imagination.
-    </p>
-</section>
+    <section id="actor">
+        <h2>Actors</h2>
+        <ul>
+            <li>Leonardo DiCaprio as Dom Cobb</li>
+            <li>Joseph Gordon-Levitt as Arthur</li>
+            <li>Elliot Page as Ariadne</li>
+            <li>Tom Hardy as Eames</li>
+            <li>Ken Watanabe as Saito</li>
+        </ul>
+    </section>
 
-<section id="actor">
-    <h2>Actors</h2>
-    <p>
-		The film features a talented cast, including Leonardo DiCaprio as Dom Cobb, Joseph Gordon-Levitt as Arthur, Ellen Page as Ariadne, Tom Hardy as Eames, and Marion Cotillard as Mal. Each actor brings depth to their character, contributing to the film's intricate narrative.
-    </p>
-</section>
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <blockquote>
+            "You mustn't be afraid to dream a little bigger, darling."
+        </blockquote>
+        <p>— Eames</p>
+    </section>
 
-<section id="quote">
-    <h2>Favorite Quote</h2>
-    <p>
-        "You mustn't be afraid to dream a little bigger, darling." - Eames
-    </p>
-</section>
+    <aside>
+        <p><strong>IMDb Rating:</strong> 8.8/10</p>
+        <p><strong>Release Date:</strong> July 16, 2010</p>
+    </aside>
 
-<aside>
-    <h2>Additional Information</h2>
-    <p><strong>IMDb Rating:</strong> 8.8/10</p>
-    <p><strong>Release Date:</strong> July 16, 2010</p>
-</aside>
-
-<footer>
-    Produced by: Christopher Nolan
-</footer>
-
+    <footer>
+        Produced by: Emma Thomas
+    </footer>
 </body>
 </html>
